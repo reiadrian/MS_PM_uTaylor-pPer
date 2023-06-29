@@ -1,0 +1,38 @@
+# ================================================== 
+# 
+# PostProceso GiD - Archivo de malla 
+# Nombre de archivo: /home/reiadrian/workspace/Multiscale_PorousMedia/Ejemplos/Homogeneos/Beta1_Homog/Pruebas/RVE_1_Tay_Per_15/Macro.pp.msh 
+# ================================================== 
+MESH "Set_1" dimension 2 Elemtype Quadrilateral Nnode 4
+Coordinates 
+# Numero_de_nodo Coordenada_x Coordenada_y Coordenada_z 
+1 0 0
+3 1 0
+6 0 3.469
+8 1 3.469
+11 0 5.781
+13 1 5.781
+16 0 7.323
+18 1 7.323
+21 0 8.351
+23 1 8.351
+26 0 9.036
+28 1 9.036
+31 0 9.492
+33 1 9.492
+36 0 9.797
+38 1 9.797
+41 0 10
+43 1 10
+end coordinates 
+Elements 
+# Nro_Elemento Nodo_1 Nodo_2 Nodo_3 Nodo_4  Nro_Set 
+1 1 3 8 6 1
+2 6 8 13 11 1
+3 11 13 18 16 1
+4 16 18 23 21 1
+5 21 23 28 26 1
+6 26 28 33 31 1
+7 31 33 38 36 1
+8 36 38 43 41 1
+end elements 

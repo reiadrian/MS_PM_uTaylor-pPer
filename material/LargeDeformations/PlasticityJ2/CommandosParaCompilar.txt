@@ -1,0 +1,25 @@
+﻿mex -v -outdir .\material\LargeDeformations\PlasticityJ2 .\material\LargeDeformations\PlasticityJ2\f_RMapPlastJ2LD.f  .\material\LargeDeformations\PlasticityJ2\strl81ld_matlab.f .\material\LargeDeformations\PlasticityJ2\VECASI.f
+:: Debug
+mex -v -g -outdir .\material\LargeDeformations\PlasticityJ2 .\material\LargeDeformations\PlasticityJ2\f_RMapPlastJ2LD.f .\material\LargeDeformations\PlasticityJ2\strl81ld_matlab.f .\material\LargeDeformations\PlasticityJ2\VECASI.f
+
+***********************************************************
+En LINUX CAMBIAR \ POR / y los sourse deben ser .F no .f
+
+En la consola de matlab hacer:
+mex -setup
+Si esta configurado para compilar con C++ (gcc), hacer:
+mex -setup FORTRAN
+Si da error puede ser porque no esta el compilador de fortran instalado. En la terminal de linux hacer:
+sudo apt install gfortran
+
+mex -v -outdir ./MultiScale_SantaFe_GD/material/LargeDeformations/PlasticityJ2  ./MultiScale_SantaFe_GD/material/LargeDeformations/PlasticityJ2/f_RMapPlastJ2LD.F  ./MultiScale_SantaFe_GD/material/LargeDeformations/PlasticityJ2/strl81ld_matlab.F  ./MultiScale_SantaFe_GD/material/LargeDeformations/PlasticityJ2/VECASI.F 
+:: Debug
+mex -v -g -outdir ./material/LargeDeformations/PlasticityJ2 ./material/LargeDeformations/PlasticityJ2/f_RmapPlastJ2LD.F  ./material/LargeDeformations/PlasticityJ2/strl81ld_matlab.F  ./material/LargeDeformations/PlasticityJ2/VECASI.F
+
+
+
+/home/javiermro/Projects/Multiscale_Application/material 
+
+
+
+
